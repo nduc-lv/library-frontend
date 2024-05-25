@@ -1,0 +1,307 @@
+.wrapper{
+    
+    h2{
+        text-align: center;
+        color: rgb(98, 98, 192);
+        margin-top: 20px;
+    }
+
+}
+.header_modal{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    .close{
+        font-size: 40px;
+        position: absolute;
+        top: 5%;
+        left: 94%;
+        &:hover{
+            color: red;
+        }
+    }
+}
+.body{
+    margin-top: 20px;
+   width: 100%;
+   padding-bottom: 10px;
+}
+.member_infor{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+.infor_avt{
+    background-color: rgb(235, 200, 135);
+    padding: 10px;
+    img{
+        height: 220px;
+        width: auto;
+    }
+
+}
+.infor_detail{
+ flex: 1; /* thẻ con này chiếm phần còn lại của thẻ cha */
+  display: flex;
+  flex-direction: column; /* sắp xếp các thẻ p theo chiều dọc */
+  justify-content: space-between; /* căn chỉnh đều các thẻ p trong thẻ con */
+//   margin: 20px 0;
+    // margin-left: 20%;
+    p {
+        font-size: medium;
+        font-weight: 600;
+        padding: 3px 0;
+    }
+    
+}
+.infor_detail{
+    span{
+        font-weight: 400;
+        font-style: italic;
+
+    }
+
+}
+.footer{
+    border-top: 2px solid rgb(235, 200, 135);
+   padding: 5px;
+
+}
+
+
+.borrowing{
+
+    .title{
+        margin-top: 5px;
+        width: fit-content;
+        border-bottom: 6px solid rgb(134, 224, 134);
+    }
+}
+
+.over_time{
+    .title{
+        margin-top: 5px;
+        width: fit-content;
+        border-bottom: 6px solid rgb(236, 135, 135);
+    }
+}
+.wrapper{
+
+   
+
+    h2{
+
+        text-align: center;
+
+        color: rgb(98, 98, 192);
+
+        margin-top: 20px;
+
+    }
+
+
+
+
+}
+
+.header_modal{
+
+    display: flex;
+
+    position: relative;
+
+    justify-content: center;
+
+    align-items: center;
+
+    .close{
+
+        font-size: 40px;
+
+        position: absolute;
+
+        top: 5%;
+
+        left: 94%;
+
+        &:hover{
+
+            color: red;
+
+        }
+
+    }
+
+}
+
+.body{
+
+    margin-top: 20px;
+
+   width: 100%;
+
+   padding-bottom: 10px;
+
+}
+
+.member_infor{
+
+    margin-left: 10px;
+
+    display: flex;
+
+    align-items: center;
+
+   
+
+    justify-content: space-between;
+
+   
+
+}
+
+.infor_avt{
+
+    background-color: rgb(235, 200, 135);
+
+    padding: 10px;
+
+    img{
+
+        height: 220px;
+
+        width: auto;
+
+    }
+
+
+
+
+}
+
+.infor_detail{
+
+
+
+
+  display: flex;
+
+  flex-direction: column; /* sắp xếp các thẻ p theo chiều dọc */
+
+  justify-content: start; /* căn chỉnh đều các thẻ p trong thẻ con */
+
+  margin-right: 30px;
+
+//   margin: 20px 0;
+
+    // margin-left: 20%;
+
+    p {
+
+        font-size: medium;
+
+        font-weight: 600;
+
+        padding: 3px 0;
+
+    }
+
+   
+
+}
+
+.infor_detail{
+
+    span{
+
+        font-weight: 400;
+
+        font-style: italic;
+
+
+
+
+    }
+
+
+
+}
+
+.footer{
+
+    border-top: 2px solid rgb(235, 200, 135);
+
+   padding: 5px;
+
+
+
+
+}
+
+
+
+
+
+.borrowing{
+
+
+
+
+    .title{
+
+        margin-top: 5px;
+
+        width: fit-content;
+
+        border-bottom: 6px solid rgb(134, 224, 134);
+
+    }
+
+}
+
+
+
+
+.over_time{
+
+    .title{
+
+        margin-top: 5px;
+
+        width: fit-content;
+
+        border-bottom: 6px solid rgb(236, 135, 135);
+
+    }
+
+    .over_timeDay{
+
+        color: rgb(229, 108, 108);
+
+    }
+
+}
+
+
+
+
+.returned{
+
+
+
+
+    .title{
+
+        margin-top: 5px;
+
+        width: fit-content;
+
+        border-bottom: 6px solid rgb(110, 110, 214);
+
+    }
+
+}

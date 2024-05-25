@@ -1,0 +1,20 @@
+
+.title {
+  text-align: center;
+
+  font-size: 32px;
+
+  margin-bottom: 20px;
+
+  text-transform: uppercase;
+
+  font-weight: 600;
+}
+.btn-add {
+  color: white;
+  float: right;
+  margin-bottom: 10px;
+  .icon-add {
+    margin: 0 5px 3px 0;
+  }
+}
