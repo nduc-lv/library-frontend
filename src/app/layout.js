@@ -1,6 +1,9 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-
+import MenuComp from "./components/MenuComp";
+import {Layout} from 'antd';
+import { UserProvider } from "./context/UserContext";
+const { Header, Content, Footer, Sider } = Layout;
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -10,8 +13,14 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
-    </html>
+    <UserProvider>
+      <html lang="en">
+        <body className={inter.className} style={{minHeight: "100vh"}}>
+        <MenuComp>
+          {children}
+        </MenuComp>
+        </body>
+      </html>
+    </UserProvider>
   );
 }
