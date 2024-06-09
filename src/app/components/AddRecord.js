@@ -32,7 +32,12 @@ export default function AddRecord({bookId}) {
         catch (e) {
             if (e instanceof AxiosError){
                 if (e.response.status === 404){
-                    toast("Không tìm thấy sách", {type: "error"})
+                    if (e.response.data.message == "Customer not found"){
+                        toast("Không tìm thấy khách", {type: "error"})
+                    }
+                    else{
+                        toast("Không tìm thấy sách", {type: "error"})
+                    }
                 }
                 else if (e.response.status === 400) {
                     if (e.response.data.message == "Out of book"){
