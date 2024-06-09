@@ -248,7 +248,7 @@ export default function BookDetail({params}) {
                 
                 <Card title={<ImageTitle></ImageTitle>}>
                     <div style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
-                        <Image alt="book's cover" src={`http://localhost:3000/images/${bookDetail.image}`} width={368} height={368} fallback="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ_4drL9dKEWM3Xp5Fcn5mEBTD7aXG6g1D17KEIg8wKJI0tIU7Z"
+                        <Image alt="book's cover" src={`https://library-back-425902.df.r.appspot.com/images/${bookDetail.image}`} width={368} height={368} fallback="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ_4drL9dKEWM3Xp5Fcn5mEBTD7aXG6g1D17KEIg8wKJI0tIU7Z"
                         ></Image>
                     </div>
                 </Card>
@@ -372,7 +372,7 @@ export default function BookDetail({params}) {
                         uid: '1',
                         name: bookDetail.image,
                         status: "done",
-                        url: `http://localhost:3000/images/${bookDetail.image}`,
+                        url: `https://library-back-425902.df.r.appspot.com/images/${bookDetail.image}`,
                     },
                 ]}
                 onPreview={handlePreview}

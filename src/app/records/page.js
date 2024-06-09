@@ -225,7 +225,9 @@ export default function Record() {
             // const response = await axios.get(`${baseURL}/getAllRecords`)
             const response = await http.getWithAccessToken(`${baseURL}/getAllRecords`)
             const data = response.data;
+            console.log(data)
             const dataRecords = data.records.map((record, index) => {
+                console.log(record)
                 console.log(record.customer.name);
                 return ({
                     key: record._id,

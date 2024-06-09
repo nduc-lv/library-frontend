@@ -224,7 +224,7 @@ export default function Genre() {
                 </Button>
             </div>
             <Modal
-                title="Thêm tác giả"
+                title="Thêm thể loại"
                 open={open}
                 confirmLoading={confirmLoading}
                 onCancel={handleCancel}
@@ -251,7 +251,7 @@ export default function Genre() {
                     autoComplete="off"
                 >
                 <Form.Item
-                    label="Tên tác giả"
+                    label="Tên thể loại"
                     name="name"
                     rules={[
                         {
