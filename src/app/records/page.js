@@ -136,7 +136,7 @@ export default function Record() {
             // record -> current row
             render: (_, record) => (
               <Space size="middle">
-                    <Link href={`/customerDetail/${record.customerId}`}>{record.customer}</Link>
+                    {record.customer}
               </Space>
             ),
         },
